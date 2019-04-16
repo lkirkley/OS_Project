@@ -1,13 +1,12 @@
+//Provided By Titus
+
 #include <stdio.h>
 #include <stdlib.h>
 
-
-// Returns Time and a Disk Block
-// This is going to require actual time
 int main()
 {
 	FILE *fp;
-	fp = fopen("input_data.txt","w");
+	fp = fopen("s_request.txt","w");
 	int time = 0;
 	for(int i = 0; i< 10; i++)
 	{

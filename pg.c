@@ -1,8 +1,7 @@
-// Rewrite of process generation
+// BROKEN CODE
 
 #include <stdlib.h>
 #include <stdio.h>
-#include "utils.h"
 
 void proc_gen(int n)
 {

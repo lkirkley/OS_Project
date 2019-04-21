@@ -89,8 +89,10 @@ int process(int time)
 		{
 			rec_un y;
 			y.y = deq(get_smallest());
+			printf("%i\n",y.y);
 			time += 5 ;
 			fprintf(f_out,"%d %d\n", time, y.x.proc); //Returns the information to the file
+
 		}
 	}
 	else 

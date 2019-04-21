@@ -102,8 +102,8 @@ return time;
 int main(){
         int time = 0;
 
-fp = fopen("a.txt", "r");
-f = fopen("b.txt", "w");
+fp = fopen("s_request.txt", "r");
+f = fopen("d_results.txt", "w");
 
 
 if(fp == NULL){
